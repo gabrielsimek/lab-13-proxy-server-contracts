@@ -1,5 +1,4 @@
-import app from '../lib/app.js';
-import supertest from 'supertest';
+
 import { formatWeather, formatLocation, formatYelp } from '../lib/munge-utils.js';
 import weatherData from '../data/weatherbit.js';
 import locationsData from '../data/location.js';
