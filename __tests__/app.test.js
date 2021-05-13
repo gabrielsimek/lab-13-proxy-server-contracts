@@ -9,21 +9,14 @@ import yelpData from '../data/yelp.js';
 // const request = supertest(app);
 
 describe('Data Wrangling', () => {
-  const expectedWeather = [
+  const expectedWeather = 
     {
       'forecast': 'Broken clouds',
       'time': '2021-05-12'
-    },
-    {
-      'forecast': 'Few clouds',
-      'time': '2021-05-13'
-    },
-    {
-      'forecast': 'Scattered clouds',
-      'time': '2021-05-14'
-    }
+    };
+    
      
-  ];
+
 
   const expectedLocations = [
     {
